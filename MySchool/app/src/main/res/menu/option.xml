@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profilmenu"
+        android:visible="true"
+        android:title="Profil"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/infomenu"
+        android:visible="true"
+        android:title="A propos de nous" />
+    <item
+        android:id="@+id/dcmenu"
+        android:visible="true"
+        android:title="Deconnexion" />
+</menu>
